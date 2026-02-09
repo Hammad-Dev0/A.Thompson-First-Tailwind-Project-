@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A. THOMPSON</title>
+  
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/6805ec8b22.js" crossorigin="anonymous"></script>
+  <!-- js link file -->
+   <script src="js/script.js" defer></script>
+</head>
+
+<body class="bg-gray-50">
+
+<!-- HEADER -->
+<header class="sticky top-0 z-50 bg-white shadow">
+  <nav class="flex items-center justify-between px-4 md:px-10 py-4">
+
+    <!-- LEFT -->
+    <div class="flex-1">
+      <a href="#" class="text-2xl font-semibold">A. THOMPSON</a>
+    </div>
+
+    <!-- CENTER  -->
+    <ul class="hidden md:flex flex-2 justify-center gap-10">
+      <li><a href="#" class="hover:text-gray-500">Home</a></li>
+      <li><a href="#" class="hover:text-gray-500">About</a></li>
+      <li><a href="#" class="hover:text-gray-500">Our Therapies</a></li>
+      <li><a href="#" class="hover:text-gray-500">Contact Us</a></li>
+      <li><a href="#" class="hover:text-gray-500">Book Online</a></li>
+    </ul>
+
+    <!-- RIGHT -->
+    <div class="flex-1 flex justify-end items-center gap-4">
+      <i class="fa-regular fa-circle-user text-2xl hidden md:block"></i>
+
+      <button class="hidden md:block px-3 py-1 border rounded hover:bg-black hover:text-white transition">
+        Log in
+      </button>
+
+      <!-- Hamburger (Mobile) -->
+      <button id="menuBtn" class="md:hidden text-2xl">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+    <ul class="flex flex-col items-center gap-4 py-4">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Our Therapies</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Book Online</a></li>
+      <li>
+        <button class="px-3 py-1 border rounded">Log in</button>
+      </li>
+    </ul>
+  </div>
+</header>
+<!-- main conent of the page -->
+ <main>
+   <!-- main heading -->
+    <h1 class="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl mt-8 sm:mt-10 md:mt-12 font-[400]">
+  Revolutionizing Physical Therapy
+</h1>
+
+<p class="text-center mt-4 sm:mt-6 md:mt-8 text-base sm:text-lg md:text-xl lg:text-[16px] font-[400]">
+  Welcome to A. Thompson, where we utilize cutting-edge techniques to provide customized care for<br/> 
+  sports injuries, post-operative discomfort, and chronic ailments.
+</p>
+
+<div class="flex justify-center items-center h-24 sm:h-28 md:h-32 mt-6 sm:mt-8">
+  <button class="px-4 sm:px-6 md:px-8 py-2 sm:py-3 border rounded-[25px] bg-[#f0efe1] hover:bg-black hover:text-white cursor-pointer transition-all duration-[600ms] text-sm sm:text-base md:text-lg">
+    LEARN MORE
+  </button>
+</div>
+
+   
+<div class="mt-12 flex flex-col md:flex-row">
+    <img src="images/one.avif" alt="hand cover" class="w-full md:w-1/2 h-auto object-cover mb-4 md:mb-0">
+    <img src="images/88aac0_e1c9d44df094462c97ccde033da82ef1~mv2.png" alt="bed-rest" class="w-full md:w-1/2 h-auto object-cover">
+</div>
+
+
+<div class="flex flex-col lg:flex-row items-center">
+
+  <!-- Text Section -->
+  <div class="w-full lg:w-1/2 px-6 sm:px-10 lg:px-24 py-16">
+    <h3 class="text-center pb-4 text-sm tracking-widest uppercase">
+      About Us
+    </h3>
+
+    <hr class="w-[70%] mx-auto" />
+
+    <h1 class="text-center text-3xl sm:text-4xl font-semibold mt-10">
+      Our Approach & Expertise
+    </h1>
+
+    <p class="mt-8 text-justify text-sm sm:text-base leading-relaxed">
+      At A. Thompson, we are a premier physical therapy clinic dedicated to
+      optimizing your recovery journey. Our expert therapists specialize in
+      Graston and myofascial release techniques to tailor treatment programs
+      that address your individual needs and accelerate your path to wellness.
+    </p>
+  </div>
+
+  <!-- Image Section -->
+  <div class="w-full lg:w-1/2">
+    <img
+      src="images/three.png"
+      alt="about"
+      class="w-full h-[300px] sm:h-[400px] lg:h-[590px] object-cover"
+    />
+  </div>
+
+</div>
+<div class="bg-[#f7f7f7] py-12 sm:py-16 lg:py-20 px-4">
+  
+  <h1 class="text-center text-2xl sm:text-3xl lg:text-4xl font-semibold">
+    Our Happy Clients
+  </h1>
+
+  <p class="text-center mt-4 max-w-2xl mx-auto text-sm sm:text-base text-gray-700">
+    We attribute our reputation to the lasting relationships we’ve developed
+    throughout the years.
+  </p>
+
+</div>
+
+<!-- cleint 1 -->
+ <section class="bg-[#f0efe1] flex flex-col lg:flex-row items-center">
+
+  <!-- Image -->
+  <div class="w-full lg:w-1/2">
+    <img 
+      src="images/four.avif" 
+      alt="client-1" 
+      class="w-full h-[260px] sm:h-[340px] lg:h-[420px] object-cover"
+    />
+  </div>
+
+  <!-- Text -->
+  <div class="w-full lg:w-1/2 px-6 sm:px-12 lg:px-20 py-10 lg:py-0">
+    <p class="text-justify leading-relaxed text-sm sm:text-base">
+      "I've been struggling with back pain for years, and after just a few
+      sessions here, I feel better than I have in a long time. The team is
+      professional, kind, and truly invested in my recovery!"
+    </p>
+
+    <h6 class="text-center mt-8 font-medium">
+      Sarah M.
+    </h6>
+  </div>
+
+</section>
+
+<!-- client 2 -->
+ <section class="bg-[#f0efe1] flex flex-col-reverse lg:flex-row items-center">
+
+  <!-- Text -->
+  <div class="w-full lg:w-1/2 px-6 sm:px-12 lg:px-16 py-10">
+    <p class="text-justify text-sm sm:text-base leading-relaxed">
+      "After my knee surgery, I was worried about getting back to running.
+      Thanks to the expert guidance and personalized exercises, I'm not only
+      back on my feet but stronger than before!"
+    </p>
+
+    <h6 class="text-center mt-8 font-medium">
+      James R.
+    </h6>
+  </div>
+
+  <!-- Image -->
+  <div class="w-full lg:w-1/2">
+    <img 
+      src="images/five.avif" 
+      alt="client-2" 
+      class="w-full h-[260px] sm:h-[340px] lg:h-[420px] object-cover"
+    />
+  </div>
+
+</section>
+<!-- client 3 -->
+
+<section class="bg-[#f0efe1] flex flex-col lg:flex-row items-center">
+
+  <!-- Image -->
+  <div class="w-full lg:w-1/2">
+    <img 
+      src="images/six.avif" 
+      alt="client-1" 
+      class="w-full h-[260px] sm:h-[340px] lg:h-[420px] object-cover"
+    />
+  </div>
+
+  <!-- Text -->
+  <div class="w-full lg:w-1/2 px-6 sm:px-12 lg:px-20 py-10 lg:py-0">
+    <p class="text-justify leading-relaxed text-sm sm:text-base">
+      
+"The care and attention I received were outstanding. The therapists took the time to understand my needs and created a plan that worked wonders. Highly recommend!"
+    </p>
+
+    <h6 class="text-center mt-8 font-medium">
+      Linda T.
+    </h6>
+  </div>
+
+</section>
+
+<!-- Service -->
+
+<section class="flex flex-col lg:flex-row gap-10">
+
+  <!-- Left Section -->
+  <div class="w-full lg:w-[52.7%] bg-[#f0efe1] px-6 sm:px-12 lg:px-20 py-16">
+    <h1 class="text-3xl lg:text-4xl font-medium">
+      Services
+    </h1>
+
+    <p class="mt-8 text-justify text-sm sm:text-base leading-relaxed">
+      Our clinic helps patients recover from injuries, manage chronic pain,
+      and heal after surgery. We focus on restoring mobility, reducing
+      discomfort, and preventing future issues through personalized treatment
+      plans, targeted exercises, and expert care. Whether you're an athlete,
+      dealing with long-term pain, or recovering from surgery, we're here to
+      support your journey to better movement and a healthier life.
+    </p>
+
+    <button
+      class="mt-12 border rounded-full px-8 py-3 hover:bg-black hover:text-white transition-all duration-500 cursor-pointer"
+    >
+      BOOK NOW
+    </button>
+  </div>
+
+  <!-- Right Section -->
+  <div class="w-full lg:w-1/2 px-6 sm:px-12 lg:px-0">
+
+    <!-- Item 1 -->
+    <i class="fa-solid fa-tree text-3xl mt-12"></i>
+    <h2 class="text-lg font-semibold mt-6">
+      Post-Operative Therapy
+    </h2>
+    <p class="mt-4 text-justify text-sm sm:text-base leading-relaxed pr-[80px]">
+      Our post-operative therapy program is designed to support a safe and
+      effective recovery after surgery. We provide personalized rehabilitation
+      plans to restore strength, flexibility, and function.
+    </p>
+    <hr class="w-[70%] mt-10">
+
+    <!-- Item 2 -->
+    <i class="fa-brands fa-pagelines text-3xl mt-12"></i>
+    <h2 class="text-lg font-semibold mt-6">
+      Sports Injury Rehabilitation
+    </h2>
+    <p class="mt-4 text-justify text-sm sm:text-base leading-relaxed pr-[80px]">
+      Our sports injury rehabilitation program helps athletes recover safely
+      from injuries through targeted exercises, manual therapy, and advanced
+      recovery techniques.
+    </p>
+    <hr class="w-[70%] mt-10">
+
+    <!-- Item 3 -->
+    <i class="fa-brands fa-linktree text-3xl mt-12"></i>
+    <h2 class="text-lg font-semibold mt-6">
+      Chronic Pain Management
+    </h2>
+    <p class="mt-4 text-justify text-sm sm:text-base leading-relaxed pr-[80px]">
+      Our chronic pain management program focuses on reducing persistent pain
+      through therapeutic exercises and personalized treatment plans to
+      improve mobility and quality of life.
+    </p>
+    <hr class="w-[70%] mt-10">
+
+  </div>
+</section>
+
+<div class="mt-[150px]">
+
+</div>
+
+<!-- contact us today -->
+ <section class="flex flex-col lg:flex-row items-center justify-center bg-[#f0efe1] w-full lg:w-4/5 mx-auto py-12 lg:py-16 gap-10">
+
+  <!-- Image -->
+  <div class="w-full lg:w-1/2 flex justify-center">
+    <img src="images/seven.avif" alt="seven" class="w-full max-w-sm lg:max-w-md h-auto object-cover rounded-md">
+  </div>
+
+  <!-- Form Section -->
+  <div class="w-full lg:w-1/2 px-6 sm:px-12 lg:px-16">
+    <h1 class="text-center text-2xl sm:text-3xl lg:text-3xl font-semibold mb-8">
+      Contact Us Today!
+    </h1>
+
+    <form action="" class="flex flex-col gap-4">
+
+      <div class="flex flex-col">
+        <label for="firstName">First Name*</label>
+        <input type="text" id="firstName" required 
+               class="border-b border-gray-400 focus:border-black outline-none w-full py-2">
+      </div>
+
+      <div class="flex flex-col">
+        <label for="lastName">Last Name*</label>
+        <input type="text" id="lastName" required 
+               class="border-b border-gray-400 focus:border-black outline-none w-full py-2">
+      </div>
+
+      <div class="flex flex-col">
+        <label for="email">Email*</label>
+        <input type="email" id="email" required 
+               class="border-b border-gray-400 focus:border-black outline-none w-full py-2">
+      </div>
+
+      <div class="flex flex-col">
+        <label for="phone">Phone*</label>
+        <input type="tel" id="phone" required 
+               class="border-b border-gray-400 focus:border-black outline-none w-full py-2">
+      </div>
+
+      <div class="flex flex-col">
+        <label for="message">Message*</label>
+        <textarea id="message" required 
+                  class="border-b border-gray-400 outline-none w-full py-4 resize-none"></textarea>
+      </div>
+
+      <button type="submit" 
+              class="mt-6 self-center border rounded-full px-12 sm:px-20 py-3 hover:bg-black hover:text-white transition-all duration-500 cursor-pointer">
+        SUBMIT
+      </button>
+
+    </form>
+  </div>
+
+</section>
+ <div class="mt-24">
+
+ </div>
+ </main>
+ <!-- footer of the page -->
+<footer class="bg-[#f0efe1] py-16">
+  <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row gap-12">
+
+    <!-- Left Section -->
+    <div class="md:w-1/2">
+      <a href="#" class="text-4xl font-semibold">A. THOMPSON</a>
+
+      <form class="mt-10">
+        <label class="block mb-2">Email*</label>
+        <input
+          type="email"
+          class="border-b bg-transparent w-full max-w-sm p-2 focus:outline-none"
+        />
+
+        <div class="flex items-center mt-8">
+          <input type="checkbox" class="mr-3">
+          <span>Yes, subscribe me to your newsletter.</span>
+        </div>
+
+        <button
+          class="mt-12 px-16 py-3 border rounded-full hover:bg-black hover:text-white transition duration-500"
+        >
+          SUBSCRIBE
+        </button>
+      </form>
+
+      <p class="mt-10 text-xs font-medium">
+        &copy; 2026 by A. Thompson. Powered and secured by
+        <span class="text-orange-500"> Hammad Dev</span>
+      </p>
+    </div>
+
+    <!-- Middle Section -->
+    <div class="md:w-1/4">
+      <a href="tel:+923242394496" class="block text-gray-800 mb-4">
+        0324 239 4496
+      </a>
+
+      <a href="mailto:hammaddev00@gmail.com" class="block text-gray-800 mb-6">
+        hammaddev00@gmail.com
+      </a>
+
+      <address class="not-italic text-gray-800 mb-6">
+        Faisalabad, Punjab, Pakistan
+      </address>
+
+      <div class="flex gap-6 text-2xl">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="md:w-1/4">
+      <a href="#" class="block underline underline-offset-4 mb-3">
+        Terms & Conditions
+      </a>
+      <a href="#" class="block underline underline-offset-4 mb-3">
+        Privacy Policy
+      </a>
+      <a href="#" class="block underline underline-offset-4 mb-3">
+        Refund Policy
+      </a>
+      <a href="#" class="block underline underline-offset-4">
+        Accessibility Statement
+      </a>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
